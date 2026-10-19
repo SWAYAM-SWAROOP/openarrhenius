@@ -72,6 +72,16 @@ Run the lesson (`python start.py 1`), then open the live app: [Session 1: reacti
 
 **Answer.** k(800 K) = 1608 per s; going from 600 K to 700 K makes the reaction 73.4 times faster.
 
+**Typical activation energies in real reactions.** The course values (`Ea = 150 kJ/mol` and `A = 1e13 per s`) are toy numbers chosen to keep the arithmetic clean. Real reactions span a wide range of activation energies depending on the bonds being broken:
+
+| Reaction | Ea (kJ/mol) | Regime / Notes | Source |
+| :--- | :--- | :--- | :--- |
+| Catalase-catalysed decomposition of `2 H2O2 -> 2 H2O + O2` | 8.0 kJ/mol | Enzyme-catalysed; very low barrier, rapid at room temperature | Atkins & de Paula, *Physical Chemistry* (10th ed., Oxford University Press, 2014) |
+| Gas-phase reaction `2 NO2 + F2 -> 2 NO2F` | 31.8 kJ/mol | Low barrier; proceeds measurably near room temperature | Perrin, D. D., *IUPAC Scavenging of Radicals / NIST Chemical Kinetics Database* (1982) |
+| Uncatalysed decomposition of `2 H2O2 -> 2 H2O + O2` | 75.3 kJ/mol | Moderate barrier; slow at 298 K without a catalyst | Laidler, K. J., *Chemical Kinetics* (3rd ed., Harper & Row, 1987) |
+| Gas-phase cis-trans isomerisation of `CHD=CHD` | 272.0 kJ/mol | High barrier; requires breaking a carbon-carbon pi bond above 600 K | Douglas, J. E., Rabinovitch, B. S., & Looney, F. S., *J. Chem. Phys.* 23, 315 (1955) |
+| Thermal homolysis of ethane `C2H6 -> 2 CH3` | 368.0 kJ/mol | Very high barrier; C-C single-bond cleavage at high temperature | Baulch, D. L. et al., *J. Phys. Chem. Ref. Data* 34, 757 (2005) |
+
 **Experiment.** Measure the time a clear sugar-water and iodine-clock style reaction takes at four water temperatures with a stopwatch (take 1/time as a measure of k), plot ln(1/time) against 1000/T with T in kelvin and fit a line. Expect a roughly straight line; the slope gives an apparent Ea. Model versus reality: a stopwatch time is a crude measure of k, the temperature drifts while the mixture reacts, and real reactions often have several steps, so the apparent Ea may differ from the one-step value and the line may bend.
 
 ## F. Assessment and design challenge
